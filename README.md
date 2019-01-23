@@ -1,27 +1,15 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-jest)
+# Weather Widget Next.js
 
-# Example app with Jest tests
+### A React Framework
 
-## How to use
+## Lightweight Apps, Server Rendered Apps, Static Websites, SEO friendly sites 
 
-### Using `create-next-app`
 
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+# Intro 
 
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-```
+I choose for this project Next.js, to showcase the usage of this library that's becoming popular on github. I can easily accomplish the goal to have static server side pages embedded with client side functioning Js, in one project, running Node.js express server.
 
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-jest
-cd with-jest
-```
+### How to use
 
 Install it and run:
 
@@ -41,8 +29,6 @@ npm run test
 yarn test
 ```
 
-## The idea behind the example
+## Test description :
 
-This example features:
-
-* An app with jest tests
+I set up the test enviroment for the tests, and included a few generic unit and a snapshot test, but did not write a specific test.
